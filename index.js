@@ -9,5 +9,5 @@ function nowServing(lineArray){
     lineArray.shift()}
   return customer
   else 
-  return ""
+  return "There is nobody waiting to be served!"
 }
