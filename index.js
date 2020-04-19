@@ -18,8 +18,9 @@ function nowServing(lineArray){
 function currentLine(lineArray){
   var countedLine = []
   var count = 0
-  if (lineArray.length > count, count++){
+  if (lineArray.length > count){
       countedLine.push(`1. ${lineArray[count]}`)
+      count++
   return `The line is currently: ${countedLine.toString()}.`
   }
   else { 
