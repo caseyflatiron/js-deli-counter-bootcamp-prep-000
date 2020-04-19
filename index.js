@@ -6,8 +6,10 @@ function takeANumber(lineArray, name){
 function nowServing(lineArray){
   var customer = lineArray[0]
   if (lineArray.length > 0){
-    lineArray.shift()}
+    lineArray.shift()
   return customer
-  else 
+  }
+  else {
   return "There is nobody waiting to be served!"
+}
 }
