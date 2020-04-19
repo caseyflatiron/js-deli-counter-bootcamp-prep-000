@@ -19,6 +19,6 @@ function currentLine(lineArray){
   return `The line is currently: ${lineArray.toString()}.`
   }
   else { 
-  return "The line is currently empty"
+  return "The line is currently empty."
 }
 }
