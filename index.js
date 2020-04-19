@@ -21,7 +21,7 @@ function currentLine(lineArray){
   if (lineArray.length > 0){
   countedLine.push(`1. ${lineArray[g]}`)
   g++
-  return `The line is currently: .`
+  return `The line is currently: ${countedLine.toString()}.`
   }
   else { 
   return "The line is currently empty."
