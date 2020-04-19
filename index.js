@@ -5,6 +5,9 @@ function takeANumber(lineArray, name){
 
 function nowServing(lineArray){
   var customer = lineArray[0]
-  lineArray.shift()
+  if (lineArray.length > 0){
+    lineArray.shift()}
   return customer
+  else 
+  return ""
 }
