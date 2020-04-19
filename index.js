@@ -21,7 +21,7 @@ function currentLine(lineArray){
     for (let i = 0; i < lineArray.length; i++){
       countedLine.push(` ${i+1}. ${lineArray[i]}`)
     }
-  return `The line is currently: ${countedLine.toString()}`
+  return `The line is currently:${countedLine.toString()}`
   }
   else { 
   return "The line is currently empty."
