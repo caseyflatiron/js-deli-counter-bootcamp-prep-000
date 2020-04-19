@@ -16,6 +16,11 @@ function nowServing(lineArray){
 
 function currentLine(lineArray){
   if (lineArray.length > 0){
+  var n = 0
+  var arrayNew2 =[]
+  while (n < array.length){
+  arrayNew2.push(`${array[n]}!!!`)
+  n++;
   return `The line is currently: ${lineArray.toString()}.`
   }
   else { 
