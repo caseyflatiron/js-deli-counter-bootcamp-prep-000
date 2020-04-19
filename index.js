@@ -16,8 +16,7 @@ function nowServing(lineArray){
 
 function currentLine(lineArray){
   if (lineArray.length > 0){
-  lineArray.toString()
-  return `The line is currently: `
+  return `The line is currently: ${lineArray.toString()}.`
   }
   else { 
   return "The line is currently empty"
