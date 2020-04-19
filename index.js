@@ -21,11 +21,10 @@ function nowServing(lineArray){
   n++;
 
 function currentLine(lineArray){
-  var n = 0
   var countedLine = []
   if (lineArray.length > 0){
-  countedLine.push(`)
-  return `The line is currently: ${lineArray.toString()}.`
+  countedLine.push(`1. ${lineArray[g]}`)
+  return `The line is currently: .`
   }
   else { 
   return "The line is currently empty."
