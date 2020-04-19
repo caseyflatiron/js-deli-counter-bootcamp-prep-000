@@ -14,11 +14,6 @@ function nowServing(lineArray){
 }
 }
 
-  var n = 0
-  var arrayNew2 =[]
-  while (n < array.length){
-  arrayNew2.push(`${array[n]}!!!`)
-  n++;
 
 function currentLine(lineArray){
   var countedLine = []
