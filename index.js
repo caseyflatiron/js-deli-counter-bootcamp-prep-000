@@ -13,3 +13,13 @@ function nowServing(lineArray){
   return "There is nobody waiting to be served!"
 }
 }
+
+function currentLine(lineArray){
+  if (lineArray.length > 0){
+  
+  return `The line is currently: `
+  }
+  else { 
+  return "The line is currently empty"
+}
+}
